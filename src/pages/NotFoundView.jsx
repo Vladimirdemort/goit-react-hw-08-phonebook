@@ -1,8 +1,8 @@
-export default function NotFoundView({ errorImage, messadge }) {
+export default function NotFoundView({ errorImage, message }) {
   return (
     <div role="alert">
       <img src={errorImage} alt="Error 404" />
-      <p>{messadge}</p>
+      <p>{message}</p>
     </div>
   );
 }
